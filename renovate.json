@@ -6,19 +6,19 @@
     {
       "fileMatch": ["(^|/)Chart.yaml$"],
       "matchStrings": ["appVersion: '(?<currentValue>.*?)'\n"],
-      "depNameTemplate": "renovate/renovate",
+      "depNameTemplate": "Gazza7205/renovate",
       "datasourceTemplate": "docker"
     },
     {
       "fileMatch": ["(^|/)Chart.yaml$"],
       "matchStrings": ["version: '(?<currentValue>.*?)'\n"],
-      "depNameTemplate": "renovate/renovate",
+      "depNameTemplate": "Gazza7205/renovate",
       "datasourceTemplate": "docker"
     },
     {
       "fileMatch": ["(^|/)README.md$"],
       "matchStrings": ["Current chart version is `(?<currentValue>.*?)`\n"],
-      "depNameTemplate": "renovate/renovate",
+      "depNameTemplate": "Gazza7205/renovate",
       "datasourceTemplate": "docker"
     },
     {
@@ -26,14 +26,14 @@
       "matchStrings": [
         "\\| image.tag \\| string \\| `\"(?<currentValue>.*?)\"` \\|  \\|\n"
       ],
-      "depNameTemplate": "renovate/renovate",
+      "depNameTemplate": "Gazza7205/renovate",
       "datasourceTemplate": "docker"
     }
   ],
   "packageRules": [
     {
       "description": "Automerge renovate minor and patch updates",
-      "packageNames": ["renovate/renovate"],
+      "packageNames": ["Gazza7205/renovate"],
       "updateTypes": ["major", "minor", "patch"],
       "automergeType": "branch",
       "automerge": true

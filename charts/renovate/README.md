@@ -4,14 +4,14 @@ Universal dependency update tool that fits into your workflows.
 
 Current chart version is `23.35.0`
 
-**Homepage:** <https://github.com/renovatebot/renovate>
+**Homepage:** <https://github.com/Gazza7205/helm-charts>
 
 ## Installation
 
 ### Add Helm repository
 
 ```shell
-helm repo add renovate https://docs.renovatebot.com/helm-charts
+helm repo add renovate https://gazza7205.github.io/helm-charts
 helm repo update
 ```
 
